@@ -12,14 +12,14 @@ public class Main {
 		    try {
 		        switch(opcao) {
 					case "1":
-							Util.cadastrarProduto();
-							break;
+						Util.cadastrarProduto();
+						break;
 					case "2":
-							Util.listarProduto();
-							break;
+						Util.listarProduto();
+						break;
 					case "3":
-							Util.venderProduto();
-							break;
+						Util.venderProduto();
+						break;
 		        	case "4":
 						exit = true;
 						break;

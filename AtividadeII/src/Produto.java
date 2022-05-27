@@ -32,7 +32,7 @@ public class Produto {
 	public boolean equals(Object obj) {
 		Produto aux = (Produto) obj; 
 		
-		if(aux.nome.equals(nome)) {
+		if(aux.nome.equalsIgnoreCase(nome)) {
 			return true;
 		} else {
 			return false;
